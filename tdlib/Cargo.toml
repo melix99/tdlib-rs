@@ -1,6 +1,6 @@
 [package]
 name = "tdlib"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Marco Melorio <marco.melorio@protonmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -15,7 +15,7 @@ Rust wrapper around the Telegram Database Library.
 features = ["dox"]
 
 [package.metadata.system-deps]
-tdjson = "1.8.2"
+tdjson = "1.8.4"
 
 [features]
 default = ["bots-only-api"]
